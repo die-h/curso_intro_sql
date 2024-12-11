@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS pruebaplatzi;
+DROP DATABASE IF EXISTS curso_mysql;
 
-CREATE DATABASE pruebaplatzi;
-USE pruebaplatzi;
+CREATE DATABASE curso_mysql;
+USE curso_mysql;
 
 CREATE TABLE `authors` (
   `author_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
